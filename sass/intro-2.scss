@@ -1,0 +1,116 @@
+.intro-body {
+  background: url("./../img-compressed/img/bg2.png");
+}
+.client {
+  display: flex;
+  justify-content: flex-end;
+  margin: 50px 50px 50px 50px;
+
+  img {
+    margin-right: 30px;
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.indicator {
+  width: 300px;
+  height: 120px;
+  background: #e91b30;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+ul {
+  position: relative;
+  font-family: "Gilroy";
+  font-weight: lighter;
+  font-size: 1.1em;
+  color: white;
+  text-align: left;
+  top: 10px;
+  margin-left: 10px;
+  margin-top: 6px;
+
+  li {
+    line-height: 19px;
+  }
+}
+
+
+.progress-bar-1 {
+  position: relative;
+  bottom: 55px;
+  left: 110px;
+  width: 180px;
+  height: 20px;
+  background: white;
+  border-radius: 6px;
+}
+
+.progress-bar-2 {
+  position: relative;
+  bottom: 28px;
+  left: 110px;
+  width: 180px;
+  height: 20px;
+  background: white;
+  border-radius: 6px;
+}
+
+.place-holder {
+  margin: 100px;
+}
+
+.btn-continue {
+  display: block;
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  margin-left: 5%;
+  left: 395px;
+  bottom: 140px;
+  font-size: 1.5em;
+  font-family: "Gilroy";
+  font-weight: bold;
+  font-style: bold;
+  color: white;
+  border-radius: 15px;
+  border-block-style: none;
+  background-image: linear-gradient(to right, #f43b47 0%, #453a94 100%);
+}
+
+.btn-continue:active {
+  transform: translateY(6px);
+}
+
+.game-rule {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 33% 33% 33%;
+  padding: 10px;
+  width: 550px;
+  height: 400px;
+  top: 425px;
+  left: 25px;
+  font-size: 1.5em;
+  font-family: "Gilroy";
+  font-weight: lighter;
+  font-style: bold;
+  justify-self: center;
+  color: white;
+  line-height: 30px;
+  gap: 10px;
+}
+
+.progress-bar-fill-1,.progress-bar-fill-2{
+  position: absolute;
+  bottom: 3.5px;
+  left: 5px;
+  width: 170px;
+  height: 13px;
+  background: blue;
+  border-radius: 6px;
+  
+
+}

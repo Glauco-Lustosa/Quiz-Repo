@@ -1,0 +1,473 @@
+{
+  "questoes_randomizar": 10,
+  "banco_questoes": [
+    {
+      "id": "Q1",
+      "pergunta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ?",
+      "alternativas": [
+        {
+          "id": "Q1_A1",
+          "descricao": "turpis tincidunt id aliquet risus feugiat in ante metus dictum.",
+          "impacto_indicadores": {
+            "satisfacao": 4,
+            "fidelizacao": 0
+          }
+        },
+
+        {
+          "id": "Q1_A2",
+          "descricao": "imperdiet sed euismod nisi porta lorem mollis aliquam ut porttitor.",
+          "impacto_indicadores": {
+            "satisfacao": 3,
+            "fidelizacao": 2
+          }
+        },
+        {
+          "id": "Q1_A3",
+          "descricao": "elit ut aliquam purus sit amet luctus venenatis lectus magna.",
+          "impacto_indicadores": {
+            "satisfacao": 4,
+            "fidelizacao": 1
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "Q2",
+      "pergunta": "Vestibulum ac ante finibus nisl sagittis tincidunt a in velit ?",
+      "alternativas": [
+        {
+          "id": "Q2_A1",
+          "descricao": "in fermentum posuere urna nec tincidunt praesent semper feugiat nibh.",
+          "impacto_indicadores": {
+            "satisfacao": 4,
+            "fidelizacao": 0
+          }
+        },
+
+        {
+          "id": "Q2_A2",
+          "descricao": "leo duis ut diam quam nulla porttitor massa id neque.",
+          "impacto_indicadores": {
+            "satisfacao": 3,
+            "fidelizacao": 2
+          }
+        },
+        {
+          "id": "Q2_A3",
+          "descricao": "cras sed felis eget velit aliquet sagittis id consectetur purus.",
+          "impacto_indicadores": {
+            "satisfacao": 4,
+            "fidelizacao": 1
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "Q3",
+      "pergunta": "Curabitur imperdiet orci ultricies magna malesuada, ut ultricies felis tincidunt ?",
+      "alternativas": [
+        {
+          "id": "Q3_A1",
+          "descricao": "in egestas erat imperdiet sed euismod nisi porta lorem mollis.",
+          "impacto_indicadores": {
+            "satisfacao": 4,
+            "fidelizacao": 0
+          }
+        },
+
+        {
+          "id": "Q3_A2",
+          "descricao": "mattis pellentesque id nibh tortor id aliquet lectus proin nibh.",
+          "impacto_indicadores": {
+            "satisfacao": 3,
+            "fidelizacao": 2
+          }
+        },
+        {
+          "id": "Q3_A3",
+          "descricao": "in nibh mauris cursus mattis molestie a iaculis at erat.",
+          "impacto_indicadores": {
+            "satisfacao": 4,
+            "fidelizacao": 1
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "Q4",
+      "pergunta": "Vestibulum semper augue at elit luctus, id pretium orci ornare ?",
+      "alternativas": [
+        {
+          "id": "Q4_A1",
+          "descricao": "fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec.",
+          "impacto_indicadores": {
+            "satisfacao": 4,
+            "fidelizacao": 0
+          }
+        },
+
+        {
+          "id": "Q4_A2",
+          "descricao": "sed sed risus pretium quam vulputate dignissim suspendisse in est.",
+          "impacto_indicadores": {
+            "satisfacao": 3,
+            "fidelizacao": 2
+          }
+        },
+        {
+          "id": "Q4_A3",
+          "descricao": "ullamcorper malesuada proin libero nunc consequat interdum varius sit amet.",
+          "impacto_indicadores": {
+            "satisfacao": 4,
+            "fidelizacao": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q5",
+      "pergunta": "Donec interdum justo in mi fermentum, ut rutrum dolor molestie ?",
+      "alternativas": [
+        {
+          "id": "Q5_A1",
+          "descricao": "adipiscing elit ut aliquam purus sit amet.",
+          "impacto_indicadores": {
+            "satisfacao": 4,
+            "fidelizacao": 0
+          }
+        },
+
+        {
+          "id": "Q5_A2",
+          "descricao": "ut aliquam purus sit amet luctus venenatis lectus magna fringilla.",
+          "impacto_indicadores": {
+            "satisfacao": 3,
+            "fidelizacao": 2
+          }
+        },
+        {
+          "id": "Q5_A3",
+          "descricao": "consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis.",
+          "impacto_indicadores": {
+            "satisfacao": 4,
+            "fidelizacao": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q6",
+      "pergunta": "Nunc finibus quam ac neque dignissim suscipit ?",
+      "alternativas": [
+        {
+          "id": "Q6_A1",
+          "descricao": "scelerisque purus semper eget duis at tellus at urna condimentum.",
+          "impacto_indicadores": {
+            "satisfacao": 4,
+            "fidelizacao": 0
+          }
+        },
+
+        {
+          "id": "Q6_A2",
+          "descricao": "adipiscing enim eu turpis egestas pretium aenean pharetra magna ac.",
+          "impacto_indicadores": {
+            "satisfacao": 3,
+            "fidelizacao": 2
+          }
+        },
+        {
+          "id": "Q6_A3",
+          "descricao": "sed augue lacus viverra vitae congue eu consequat ac felis.",
+          "impacto_indicadores": {
+            "satisfacao": 4,
+            "fidelizacao": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q7",
+      "pergunta": "Etiam in ligula euismod, consectetur nulla in, auctor magna ?",
+      "alternativas": [
+        {
+          "id": "Q7_A1",
+          "descricao": "scelerisque felis imperdiet proin fermentum leo vel orci porta non.",
+          "impacto_indicadores": {
+            "satisfacao": 4,
+            "fidelizacao": 0
+          }
+        },
+
+        {
+          "id": "Q7_A2",
+          "descricao": "nisl condimentum id venenatis a condimentum vitae sapien pellentesque habitant.",
+          "impacto_indicadores": {
+            "satisfacao": 3,
+            "fidelizacao": 2
+          }
+        },
+        {
+          "id": "Q7_A3",
+          "descricao": "tristique senectus et netus et malesuada fames ac turpis egestas.",
+          "impacto_indicadores": {
+            "satisfacao": 4,
+            "fidelizacao": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q8",
+      "pergunta": "Nulla eu urna lobortis, ultrices eros lobortis, dictum lorem ?",
+      "alternativas": [
+        {
+          "id": "Q8_A1",
+          "descricao": "donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu.",
+          "impacto_indicadores": {
+            "satisfacao": 4,
+            "fidelizacao": 0
+          }
+        },
+
+        {
+          "id": "Q8_A2",
+          "descricao": "in vitae turpis massa sed elementum tempus egestas sed sed.",
+          "impacto_indicadores": {
+            "satisfacao": 3,
+            "fidelizacao": 2
+          }
+        },
+        {
+          "id": "Q8_A3",
+          "descricao": "eget felis eget nunc lobortis mattis aliquam faucibus purus in.",
+          "impacto_indicadores": {
+            "satisfacao": 4,
+            "fidelizacao": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q9",
+      "pergunta": "Vivamus eu leo sed odio finibus tristique ?",
+      "alternativas": [
+        {
+          "id": "Q9_A1",
+          "descricao": "senectus et netus et malesuada fames ac turpis egestas sed.",
+          "impacto_indicadores": {
+            "satisfacao": 4,
+            "fidelizacao": 0
+          }
+        },
+
+        {
+          "id": "Q9_A2",
+          "descricao": "orci sagittis eu volutpat odio facilisis mauris sit amet massa.",
+          "impacto_indicadores": {
+            "satisfacao": 3,
+            "fidelizacao": 2
+          }
+        },
+        {
+          "id": "Q9_A3",
+          "descricao": "semper auctor neque vitae tempus quam pellentesque nec nam aliquam.",
+          "impacto_indicadores": {
+            "satisfacao": 4,
+            "fidelizacao": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q10",
+      "pergunta": "Sed blandit lacus a urna gravida, imperdiet laoreet tellus viverra ?",
+      "alternativas": [
+        {
+          "id": "Q10_A1",
+          "descricao": "dolor magna eget est lorem ipsum dolor sit amet consectetur.",
+          "impacto_indicadores": {
+            "satisfacao": 4,
+            "fidelizacao": 0
+          }
+        },
+
+        {
+          "id": "Q10_A2",
+          "descricao": "molestie a iaculis at erat pellentesque adipiscing commodo elit at.",
+          "impacto_indicadores": {
+            "satisfacao": 3,
+            "fidelizacao": 2
+          }
+        },
+        {
+          "id": "Q10_A3",
+          "descricao": "risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit.",
+          "impacto_indicadores": {
+            "satisfacao": 4,
+            "fidelizacao": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q11",
+      "pergunta": "Donec id magna nec ex vulputate ultricies ut lacinia enim ?",
+      "alternativas": [
+        {
+          "id": "Q11_A1",
+          "descricao": "ut etiam sit amet nisl purus in mollis nunc sed.",
+          "impacto_indicadores": {
+            "satisfacao": 4,
+            "fidelizacao": 0
+          }
+        },
+
+        {
+          "id": "Q11_A2",
+          "descricao": "quis lectus nulla at volutpat diam ut venenatis tellus in.",
+          "impacto_indicadores": {
+            "satisfacao": 3,
+            "fidelizacao": 2
+          }
+        },
+        {
+          "id": "Q11_A3",
+          "descricao": "sit amet nisl purus in mollis nunc sed id semper.",
+          "impacto_indicadores": {
+            "satisfacao": 4,
+            "fidelizacao": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q12",
+      "pergunta": "Proin rutrum enim vel orci porttitor iaculis ?",
+      "alternativas": [
+        {
+          "id": "Q12_A1",
+          "descricao": "sit amet nisl purus in mollis nunc sed id semper.",
+          "impacto_indicadores": {
+            "satisfacao": 4,
+            "fidelizacao": 0
+          }
+        },
+
+        {
+          "id": "Q12_A2",
+          "descricao": "sed viverra tellus in hac habitasse platea dictumst vestibulum rhoncus.",
+          "impacto_indicadores": {
+            "satisfacao": 3,
+            "fidelizacao": 2
+          }
+        },
+        {
+          "id": "Q12_A3",
+          "descricao": "amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien.",
+          "impacto_indicadores": {
+            "satisfacao": 4,
+            "fidelizacao": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q13",
+      "pergunta": "Ut fermentum nibh sodales, fringilla arcu quis, auctor lectus ?",
+      "alternativas": [
+        {
+          "id": "Q13_A1",
+          "descricao": "a erat nam at lectus urna duis convallis convallis tellus.",
+          "impacto_indicadores": {
+            "satisfacao": 4,
+            "fidelizacao": 0
+          }
+        },
+
+        {
+          "id": "Q13_A2",
+          "descricao": "sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae.",
+          "impacto_indicadores": {
+            "satisfacao": 3,
+            "fidelizacao": 2
+          }
+        },
+        {
+          "id": "Q13_A3",
+          "descricao": "gravida rutrum quisque non tellus orci ac auctor augue mauris.",
+          "impacto_indicadores": {
+            "satisfacao": 4,
+            "fidelizacao": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q14",
+      "pergunta": "In nec neque cursus, suscipit orci ut, dignissim libero ?",
+      "alternativas": [
+        {
+          "id": "Q14_A1",
+          "descricao": "praesent elementum facilisis leo vel fringilla est ullamcorper eget nulla.",
+          "impacto_indicadores": {
+            "satisfacao": 4,
+            "fidelizacao": 0
+          }
+        },
+
+        {
+          "id": "Q14_A2",
+          "descricao": "morbi tristique senectus et netus et malesuada fames ac turpis.",
+          "impacto_indicadores": {
+            "satisfacao": 3,
+            "fidelizacao": 2
+          }
+        },
+        {
+          "id": "Q14_A3",
+          "descricao": "dis parturient montes nascetur ridiculus mus mauris vitae ultricies leo.",
+          "impacto_indicadores": {
+            "satisfacao": 4,
+            "fidelizacao": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q15",
+      "pergunta": "Sed eu arcu quis risus tincidunt mattis ?",
+      "alternativas": [
+        {
+          "id": "Q15_A1",
+          "descricao": "vivamus arcu felis bibendum ut tristique et egestas quis ipsum.",
+          "impacto_indicadores": {
+            "satisfacao": 4,
+            "fidelizacao": 0
+          }
+        },
+
+        {
+          "id": "Q15_A2",
+          "descricao": "vivamus arcu felis bibendum ut tristique et egestas quis ipsum.",
+          "impacto_indicadores": {
+            "satisfacao": 3,
+            "fidelizacao": 2
+          }
+        },
+        {
+          "id": "Q15_A3",
+          "descricao": "risus feugiat in ante metus dictum at tempor commodo ullamcorper.",
+          "impacto_indicadores": {
+            "satisfacao": 4,
+            "fidelizacao": 1
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,614 @@
+/**************************************Reset-code-Start***********************************************************/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/**************************************Reset-code-end***********************************************************/
+@font-face {
+  font-family: 'Gilroy';
+  src: url("./../font/Gilroy-Black.woff2") format("woff2"), url("./../font/Gilroy-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url("./../font/Gilroy-Regular.woff2") format("woff2"), url("./../font/Gilroy-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url("./../font/Gilroy-Light.woff2") format("woff2"), url("./../font/Gilroy-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url("./../font/Gilroy-ExtraBold.woff2") format("woff2"), url("./../font/Gilroy-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal; }
+
+.intro-body {
+  background: url("./../img-compressed/img/bg2.png"); }
+
+.client {
+  display: flex;
+  justify-content: flex-end;
+  margin: 50px 50px 50px 50px; }
+  .client img {
+    margin-right: 30px;
+    width: 150px;
+    height: 150px; }
+
+.indicator {
+  width: 300px;
+  height: 120px;
+  background: #e91b30;
+  border-radius: 6px;
+  padding: 5px; }
+
+ul {
+  position: relative;
+  font-family: "Gilroy";
+  font-weight: lighter;
+  font-size: 1.1em;
+  color: white;
+  text-align: left;
+  top: 10px;
+  margin-left: 10px;
+  margin-top: 6px; }
+  ul li {
+    line-height: 19px; }
+
+.progress-bar-1 {
+  position: relative;
+  bottom: 55px;
+  left: 110px;
+  width: 180px;
+  height: 20px;
+  background: white;
+  border-radius: 6px; }
+
+.progress-bar-2 {
+  position: relative;
+  bottom: 28px;
+  left: 110px;
+  width: 180px;
+  height: 20px;
+  background: white;
+  border-radius: 6px; }
+
+.place-holder {
+  margin: 100px; }
+
+.btn-continue {
+  display: block;
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  margin-left: 5%;
+  left: 395px;
+  bottom: 140px;
+  font-size: 1.5em;
+  font-family: "Gilroy";
+  font-weight: bold;
+  font-style: bold;
+  color: white;
+  border-radius: 15px;
+  border-block-style: none;
+  background-image: linear-gradient(to right, #f43b47 0%, #453a94 100%); }
+
+.btn-continue:active {
+  transform: translateY(6px); }
+
+.game-rule {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 33% 33% 33%;
+  padding: 10px;
+  width: 550px;
+  height: 400px;
+  top: 425px;
+  left: 25px;
+  font-size: 1.5em;
+  font-family: "Gilroy";
+  font-weight: lighter;
+  font-style: bold;
+  justify-self: center;
+  color: white;
+  line-height: 30px;
+  gap: 10px; }
+
+.progress-bar-fill-1, .progress-bar-fill-2 {
+  position: absolute;
+  bottom: 3.5px;
+  left: 5px;
+  width: 170px;
+  height: 13px;
+  background: blue;
+  border-radius: 6px; }
+
+.game-body {
+  background: url("./../img-compressed/img/bg3.png"); }
+
+.img {
+  max-width: 50%;
+  max-height: 70%;
+  position: fixed;
+  left: 25%;
+  bottom: 10%; }
+
+.question-window .question {
+  background-color: white;
+  width: 60%;
+  height: 450px;
+  position: absolute;
+  left: 20%;
+  margin-left: -50px;
+  margin-top: 80px;
+  border-radius: 30px; }
+
+.question-window .question::after {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  right: -15px;
+  bottom: -15px;
+  border: white 2px solid;
+  border-radius: 30px; }
+
+.question-window p {
+  font-size: 1.5em;
+  font-family: "Gilroy";
+  font-weight: lighter;
+  text-align: left;
+  position: relative;
+  left: 20px;
+  top: 30px; }
+
+/*
+=====
+LEVEL 1. CORE STYLES
+=====
+*/
+.toggle {
+  --uiToggleSize: var(--toggleSize, 20px);
+  --uiToggleIndent: var(--toggleIndent, 0.4em);
+  --uiToggleBorderWidth: var(--toggleBorderWidth, 2px);
+  --uiToggleColor: var(--toggleColor, #000);
+  --uiToggleDisabledColor: var(--toggleDisabledColor, #868e96);
+  --uiToggleBgColor: var(--toggleBgColor, #fff);
+  --uiToggleArrowWidth: var(--toggleArrowWidth, 2px);
+  --uiToggleArrowColor: var(--toggleArrowColor, #fff);
+  display: inline-block;
+  position: relative; }
+
+.toggle__input {
+  position: absolute;
+  left: -99999px; }
+
+.toggle__label {
+  display: inline-flex;
+  cursor: pointer;
+  min-height: var(--uiToggleSize);
+  padding-left: calc(var(--uiToggleSize) + var(--uiToggleIndent)); }
+
+.toggle__label:before,
+.toggle__label:after {
+  content: "";
+  box-sizing: border-box;
+  width: 1em;
+  height: 1em;
+  font-size: var(--uiToggleSize);
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+.toggle__label:before {
+  border: var(--uiToggleBorderWidth) solid var(--uiToggleColor);
+  z-index: 2; }
+
+.toggle__input:disabled ~ .toggle__label:before {
+  border-color: var(--uiToggleDisabledColor); }
+
+.toggle__input:focus ~ .toggle__label:before {
+  box-shadow: 0 0 0 2px var(--uiToggleBgColor), 0 0 0px 4px var(--uiToggleColor); }
+
+.toggle__input:not(:disabled):checked:focus ~ .toggle__label:after {
+  box-shadow: 0 0 0 2px var(--uiToggleBgColor), 0 0 0px 4px var(--uiToggleColor); }
+
+.toggle__input:not(:disabled) ~ .toggle__label:after {
+  background-color: var(--uiToggleColor);
+  opacity: 0; }
+
+.toggle__input:not(:disabled):checked ~ .toggle__label:after {
+  opacity: 1; }
+
+.toggle__text {
+  margin-top: auto;
+  margin-bottom: auto; }
+
+/*
+  The arrow size and position depends from sizes of square because I needed an arrow correct positioning from the top left corner of the element toggle
+  */
+.toggle__text:before {
+  content: "";
+  box-sizing: border-box;
+  width: 0;
+  height: 0;
+  font-size: var(--uiToggleSize);
+  border-left-width: 0;
+  border-bottom-width: 0;
+  border-left-style: solid;
+  border-bottom-style: solid;
+  border-color: var(--uiToggleArrowColor);
+  position: absolute;
+  top: 0.5428em;
+  left: 0.2em;
+  z-index: 3;
+  transform-origin: left top;
+  transform: rotate(-40deg) skew(10deg); }
+
+.toggle__input:not(:disabled):checked ~ .toggle__label .toggle__text:before {
+  width: 0.5em;
+  height: 0.25em;
+  border-left-width: var(--uiToggleArrowWidth);
+  border-bottom-width: var(--uiToggleArrowWidth);
+  will-change: width, height;
+  transition: width 0.1s ease-out 0.2s, height 0.2s ease-out; }
+
+.toggle__label:before,
+.toggle__label:after {
+  border-radius: 2px; }
+
+/* 
+  The animation of switching states
+  */
+.toggle__input:not(:disabled) ~ .toggle__label:before,
+.toggle__input:not(:disabled) ~ .toggle__label:after {
+  opacity: 1;
+  transform-origin: center center;
+  will-change: transform;
+  transition: transform 0.2s ease-out; }
+
+.toggle__input:not(:disabled) ~ .toggle__label:before {
+  transform: rotateY(0deg);
+  transition-delay: 0.2s; }
+
+.toggle__input:not(:disabled) ~ .toggle__label:after {
+  transform: rotateY(90deg); }
+
+.toggle__input:not(:disabled):checked ~ .toggle__label:before {
+  transform: rotateY(-90deg);
+  transition-delay: 0s; }
+
+.toggle__input:not(:disabled):checked ~ .toggle__label:after {
+  transform: rotateY(0deg);
+  transition-delay: 0.2s; }
+
+.toggle__text:before {
+  opacity: 0; }
+
+.toggle__input:not(:disabled):checked ~ .toggle__label .toggle__text:before {
+  opacity: 1;
+  transition: opacity 0.1s ease-out 0.3s, width 0.1s ease-out 0.5s, height 0.2s ease-out 0.3s; }
+
+.toggle {
+  --toggleColor: #690e90;
+  --toggleBgColor: #9b59b6;
+  --toggleSize: 50px; }
+
+.page {
+  margin: auto;
+  padding-top: 100px;
+  padding-left: 30px;
+  padding-right: 10px;
+  order: 1; }
+
+.page__toggle {
+  font-size: 28px;
+  font-weight: 700;
+  color: black;
+  font-family: "Gilroy";
+  font-weight: lighter;
+  font-style: bold; }
+
+.page__toggle:nth-child(n + 2) {
+  margin-top: 50px; }
+
+.btn-confirm {
+  display: block;
+  position: relative;
+  width: 200px;
+  height: 60px;
+  margin-left: 5%;
+  left: 750px;
+  top: 510px;
+  font-size: 1.5em;
+  font-family: "Gilroy";
+  font-weight: bold;
+  font-style: bold;
+  color: white;
+  border-radius: 15px;
+  border-block-style: none;
+  background-image: linear-gradient(to right, #f43b47 0%, #453a94 100%); }
+
+.result-body {
+  background: url("./../img-compressed/img/bg4_gray.png"); }
+
+.result-window .result {
+  background-color: #e91b30;
+  width: 50%;
+  height: 550px;
+  position: absolute;
+  border-radius: 30px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+.result-window .result::after {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  right: -15px;
+  bottom: -15px;
+  border: #bd1728 2px solid;
+  border-radius: 30px; }
+
+.result-window p {
+  font-size: 1.5em;
+  font-family: "Gilroy";
+  font-weight: lighter;
+  text-align: left;
+  position: relative;
+  left: 20px;
+  top: 30px; }
+
+.result-window img {
+  position: absolute;
+  border-radius: 30px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 30px 40px auto; }
+
+.result-window span {
+  position: absolute;
+  border-radius: 30px;
+  top: 30px;
+  bottom: 0px;
+  left: 200px;
+  right: 0;
+  margin: 30px 40px auto;
+  font-family: "Gilroy";
+  font-weight: bold;
+  text-align: left;
+  font-size: 2.5em;
+  color: white; }
+
+.result-indicator {
+  position: absolute;
+  border-radius: 30px;
+  top: 450px;
+  bottom: 0px;
+  left: 500px;
+  right: 0;
+  width: 40%;
+  height: 10%;
+  margin: 30px 40px auto;
+  line-height: 30px; }
+  .result-indicator ul {
+    font-family: "Gilroy";
+    font-weight: bold;
+    text-align: left; }
+
+.space {
+  position: relative;
+  left: 85px; }
+
+.progress-bar-result-1 {
+  position: relative;
+  bottom: 70px;
+  left: 115px;
+  width: 30%;
+  height: 30px;
+  background: white;
+  border-radius: 6px; }
+
+.new-progress-bar-fill-1 {
+  position: absolute;
+  bottom: 7px;
+  left: 5px;
+  width: 170px;
+  height: 15px;
+  background: blue;
+  border-radius: 6px; }
+
+.new-progress-bar-fill-2 {
+  position: absolute;
+  bottom: 7px;
+  left: 5px;
+  width: 100px;
+  height: 15px;
+  background: blue;
+  border-radius: 6px; }
+
+.progress-bar-result-2 {
+  position: relative;
+  bottom: 40px;
+  left: 210px;
+  width: 30%;
+  height: 30px;
+  background: white;
+  border-radius: 6px; }
+
+img {
+  filter: blur(1px); }
+
+article {
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  margin-left: 5%;
+  top: 50%;
+  font-size: 1.9em;
+  font-family: "Gilroy";
+  font-weight: normal;
+  font-style: normal;
+  line-height: 33px;
+  padding: 5px auto; }
+  article h2 {
+    line-height: 40px;
+    font-size: 1.7em;
+    font-family: "Gilroy";
+    font-weight: 800;
+    font-style: normal;
+    color: #75308a; }
+  article span {
+    font-family: "Gilroy";
+    font-weight: 800;
+    font-style: normal;
+    color: #cb2031; }
+
+.btn-challenge {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10%;
+  margin-left: 5%;
+  bottom: -50px;
+  font-size: 2.5em;
+  font-family: "Gilroy";
+  font-weight: bold;
+  font-style: bold;
+  color: white;
+  border-radius: 15px;
+  border-block-style: none;
+  background-image: linear-gradient(to right, #f43b47 0%, #453a94 100%); }
+
+.btn-challenge:active {
+  transform: translateY(6px); }

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./dist/style.css" />
+    <title>Document</title>
+  </head>
+  <body class="game-body">
+    <div>
+      <div class="client">
+        <img src="./img-compressed/img/arte_indicadores.png" alt="" />
+        <div class="indicator">
+          <ul>
+            <li class="satisfaction">
+              Satisfação <br />
+              do Cliente
+            </li>
+            <br />
+            <li>Fidelização</li>
+          </ul>
+          <div class="progress-bar-1">
+            <div class="progress-bar-fill-1" id="progress-bar-fill-1"></div>
+          </div>
+
+          <div class="progress-bar-2">
+            <div class="progress-bar-fill-2" id="progress-bar-fill-2"></div>
+          </div>
+        </div>
+      </div>
+
+      <img
+        src="./img-compressed/img/arte_quiz.png"
+        alt="art-quiz"
+        class="img"
+      />
+
+      <div class="question-window">
+        <div class="question">
+          <p class="questions" id="paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut
+            urna velit. Nam quis ?
+          </p>
+          <div class="page">
+            <div class="page__toggle">
+              <label class="toggle">
+                <input class="toggle__input" type="checkbox" name="item"/>
+                <span class="toggle__label">
+                  <span class="toggle__text" id="alternative-1">Lorem ipsum dolor sit amet.</span>
+                </span>
+              </label>
+            </div>
+            <div class="page__toggle">
+              <label class="toggle">
+                <input class="toggle__input" type="checkbox" name="item"/>
+                <span class="toggle__label">
+                  <span class="toggle__text" id="alternative-2">consectetur adipiscing elit.</span>
+                </span>
+              </label>
+            </div>
+
+            <div class="page__toggle">
+              <label class="toggle">
+                <input class="toggle__input" type="checkbox" name="item" />
+                <span class="toggle__label">
+                  <span class="toggle__text" id="alternative-3">Vivamus ut urna velit.</span>
+                </span>
+              </label>
+            </div>
+          </div>
+        </div>
+      
+          <button class="btn-confirm" href="game-page.html" id="btn-confirm">CONTINUAR</button>
+       
+      </div>
+    </div>
+   
+    <script src="./js/index.js"></script>
+  </body>
+</html>

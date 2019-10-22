@@ -1,0 +1,112 @@
+.result-body {
+  background: url("./../img-compressed/img/bg4_gray.png"); }
+
+.result-window .result {
+  background-color: #e91b30;
+  width: 50%;
+  height: 550px;
+  position: absolute;
+  border-radius: 30px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+.result-window .result::after {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  right: -15px;
+  bottom: -15px;
+  border: #bd1728 2px solid;
+  border-radius: 30px; }
+
+.result-window p {
+  font-size: 1.5em;
+  font-family: "Gilroy";
+  font-weight: lighter;
+  text-align: left;
+  position: relative;
+  left: 20px;
+  top: 30px; }
+
+.result-window img {
+  position: absolute;
+  border-radius: 30px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 30px 40px auto; }
+
+.result-window span {
+  position: absolute;
+  border-radius: 30px;
+  top: 30px;
+  bottom: 0px;
+  left: 200px;
+  right: 0;
+  margin: 30px 40px auto;
+  font-family: "Gilroy";
+  font-weight: bold;
+  text-align: left;
+  font-size: 2.5em;
+  color: white; }
+
+.result-indicator {
+  position: absolute;
+  border-radius: 30px;
+  top: 450px;
+  bottom: 0px;
+  left: 500px;
+  right: 0;
+  width: 40%;
+  height: 10%;
+  margin: 30px 40px auto;
+  line-height: 30px; }
+  .result-indicator ul {
+    font-family: "Gilroy";
+    font-weight: bold;
+    text-align: left; }
+
+.space {
+  position: relative;
+  left: 85px; }
+
+.progress-bar-result-1 {
+  position: relative;
+  bottom: 70px;
+  left: 115px;
+  width: 30%;
+  height: 30px;
+  background: white;
+  border-radius: 6px; }
+
+.new-progress-bar-fill-1 {
+  position: absolute;
+  bottom: 7px;
+  left: 5px;
+  width: 170px;
+  height: 15px;
+  background: blue;
+  border-radius: 6px; }
+
+.new-progress-bar-fill-2 {
+  position: absolute;
+  bottom: 7px;
+  left: 5px;
+  width: 100px;
+  height: 15px;
+  background: blue;
+  border-radius: 6px; }
+
+.progress-bar-result-2 {
+  position: relative;
+  bottom: 40px;
+  left: 210px;
+  width: 30%;
+  height: 30px;
+  background: white;
+  border-radius: 6px; }
